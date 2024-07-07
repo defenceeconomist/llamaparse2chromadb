@@ -1,0 +1,5 @@
+Name: Convert pdf to markdown and store in vector database.
+Description: Convert pdf to markdown, chunk the results, and store in chromadb 
+  vector database.
+Binding: pdf2_to_chroma_db
+Interactive: true

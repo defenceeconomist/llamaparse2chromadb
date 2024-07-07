@@ -1,0 +1,25 @@
+Package: llamaparse2chromadb
+Title: Add PDF to ChromaDB
+Version: 0.1
+Authors@R: 
+    person("Luke", "Heley", , "lajh87@me.com", role = c("aut", "cre"))
+Description: This RStudio addin converts data from PDF to Markdown using 
+    llamaparse. It then chunks the data and adds it a chromadb vector 
+    database.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+  shiny,
+  miniUI,
+  glue,
+  pdftools,
+  reticulate,
+  yaml,
+  digest,
+  dplyr,
+  jsonlite,
+  stringr,
+  tidyr,
+  httr
